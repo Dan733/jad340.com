@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
 html,
 body {
     background-color: #212121;
     color: #FFFFFF;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     font-size: 24pt;
     padding: 0;
