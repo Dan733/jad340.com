@@ -1,0 +1,41 @@
+html,
+body {
+    background-color: #212121;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 24pt;
+    padding: 0;
+    margin: 0 5% 5% 5%;
+    overflow-y: hidden;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 144pt;
+    margin-top: 10%;
+    margin-bottom: 2.5%;
+}
+
+a {
+    color: #FFFFFF;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.content {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    html,
+    body {
+        overflow-y: auto;
+    }
+}
